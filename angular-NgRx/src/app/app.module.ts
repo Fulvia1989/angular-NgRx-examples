@@ -14,7 +14,7 @@ import { counterReducer } from './store/counter.reducer';
     CounterControlsComponent,
   ],
   imports: [BrowserModule, StoreModule.forRoot({
-    counter: counterReducer //all the reducers here
+    counter: counterReducer //all the reducers here, associated at the key that will be used to call for their value in the app 
   })],
   providers: [],
   bootstrap: [AppComponent],
